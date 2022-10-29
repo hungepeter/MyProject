@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "bsRUoiRGM5lh2QRALtqcQc13j9zJmeBuweWUuS4eARxLqlqEjpsKg+Ky1Of3SXHrb7H+LYN2KikfI4QP3GHcJw==",
+  "success": true,
+  "projectFilePath": "D:\\core6\\MyProject\\coreProject1\\coreProject1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\peter\\.nuget\\packages\\microsoft.build.tasks.git\\1.1.1\\microsoft.build.tasks.git.1.1.1.nupkg.sha512",
+    "C:\\Users\\peter\\.nuget\\packages\\microsoft.sourcelink.common\\1.1.1\\microsoft.sourcelink.common.1.1.1.nupkg.sha512",
+    "C:\\Users\\peter\\.nuget\\packages\\microsoft.sourcelink.github\\1.1.1\\microsoft.sourcelink.github.1.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}
