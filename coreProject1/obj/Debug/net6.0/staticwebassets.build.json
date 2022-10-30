@@ -1,11 +1,37 @@
 {
   "Version": 1,
-  "Hash": "CWpIQAYtDQpVMDqGs2tRtz3EIEDx/2EWfNX2BNg+z/U=",
+  "Hash": "VxwI5R1TINdOcbzCWxjo9DDwztuhsNOtzcSUQ5GdxAw=",
   "Source": "coreProject1",
   "BasePath": "_content/coreProject1",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "coreProject1\\wwwroot",
+      "Source": "coreProject1",
+      "ContentRoot": "D:\\core6\\MyProject\\coreProject1\\wwwroot\\",
+      "BasePath": "_content/coreProject1",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\core6\\MyProject\\coreProject1\\wwwroot\\帝君Q版.jpg",
+      "SourceId": "coreProject1",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\core6\\MyProject\\coreProject1\\wwwroot\\",
+      "BasePath": "_content/coreProject1",
+      "RelativePath": "帝君Q版.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\帝君Q版.jpg"
+    }
+  ]
 }
