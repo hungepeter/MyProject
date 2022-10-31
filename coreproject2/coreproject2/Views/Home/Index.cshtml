@@ -1,0 +1,52 @@
+﻿@model IEnumerable<coreproject2.Models.Food>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table" border="1">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.編號)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.名稱)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.單價)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.編號)
+            </td>
+            <td>
+                    @{
+                        var name = $"{item.名稱}.jpg";
+                        
+                        <img src="~/images/@name" stye="width:200px" />
+                    }
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.單價)
+            </td>
+           
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

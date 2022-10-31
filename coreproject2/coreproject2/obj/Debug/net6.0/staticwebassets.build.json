@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "ZlNsy4byFAvJayjTw8xUzqiOP4q4Ie78+fhn1gG/9SU=",
+  "Source": "coreproject2",
+  "BasePath": "_content/coreproject2",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "coreproject2\\wwwroot",
+      "Source": "coreproject2",
+      "ContentRoot": "D:\\core6\\MyProject\\coreproject2\\coreproject2\\wwwroot\\",
+      "BasePath": "_content/coreproject2",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\core6\\MyProject\\coreproject2\\coreproject2\\wwwroot\\Images\\屯京拉麵.jpg",
+      "SourceId": "coreproject2",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\core6\\MyProject\\coreproject2\\coreproject2\\wwwroot\\",
+      "BasePath": "_content/coreproject2",
+      "RelativePath": "Images/屯京拉麵.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\屯京拉麵.jpg"
+    },
+    {
+      "Identity": "D:\\core6\\MyProject\\coreproject2\\coreproject2\\wwwroot\\Images\\金三角生角片.jpg",
+      "SourceId": "coreproject2",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\core6\\MyProject\\coreproject2\\coreproject2\\wwwroot\\",
+      "BasePath": "_content/coreproject2",
+      "RelativePath": "Images/金三角生角片.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\金三角生角片.jpg"
+    },
+    {
+      "Identity": "D:\\core6\\MyProject\\coreproject2\\coreproject2\\wwwroot\\Images\\幽靈肉粽.jpg",
+      "SourceId": "coreproject2",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\core6\\MyProject\\coreproject2\\coreproject2\\wwwroot\\",
+      "BasePath": "_content/coreproject2",
+      "RelativePath": "Images/幽靈肉粽.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\幽靈肉粽.jpg"
+    }
+  ]
+}
